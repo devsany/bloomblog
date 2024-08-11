@@ -111,8 +111,9 @@ export default function Home() {
                   );
                 }))}
           </div>
-          <button onClick={movieIncrease}>Show more</button>
+          {/* <button onClick={movieIncrease}>Show more</button> */}
         </div>
+        
         <div className="latest_news_main_div">
           <h2>
             Latest News{" "}

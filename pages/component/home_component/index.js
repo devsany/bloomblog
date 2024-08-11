@@ -20,6 +20,9 @@ const Home_header = () => {
           </div>
           <div className="home_header_links">
             <div className="l1">
+              <Link href="/">Home</Link>
+            </div>
+            <div className="l1">
               <Link href="/component/header_link/world">World</Link>
             </div>
             <div className="l1">
