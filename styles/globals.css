@@ -1,0 +1,366 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home_page_main_div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 30px;
+}
+.movies_main_div {
+  padding: 10px;
+  width: 50%;
+  border-top: 1px solid gainsboro;
+  margin: 5px;
+}
+.movie_link {
+  /* border-bottom: 1px solid gainsboro; */
+}
+.latest_news_main_div {
+  width: 50%;
+  padding: 10px;
+  float: left;
+  margin: 5px;
+  border-left: 1px solid gainsboro;
+}
+.news_section_header {
+  display: flex;
+}
+.news_catogery {
+  border: 1px solid rgb(211, 209, 209);
+  border-radius: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 5px;
+}
+.News_date {
+  color: gray;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+.news_section_header {
+  margin-bottom: 5px;
+}
+.latest_news_main_div h2 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.news_link {
+  cursor: pointer;
+  font-size: 15px;
+  /* margin-top: -200px; */
+  border: 1px solid gray;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: rgb(255, 253, 253);
+  border-radius: 10px;
+}
+hr {
+  margin-top: 20px;
+}
+.news_link:hover {
+  background-color: rgb(133, 133, 245);
+}
+.news_section {
+  margin-bottom: 20px;
+}
+.news_title {
+  font-size: 29px;
+  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-ser; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+}
+.News_description {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  color: gray;
+  margin-bottom: 10px;
+}
+.news_id_link {
+  color: rgb(64, 64, 247);
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+.news_id_link:hover {
+  color: rgb(24, 24, 240);
+}
+/* home_movie_css */
+.movie_link {
+  float: right;
+  /* width: 100%; */
+  padding-bottom: 5px;
+}
+.movie_heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie_heading_title h2 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  /* margin-bottom: 20px; */
+}
+.movie_heading {
+  border-bottom: 1px solid gray;
+}
+.movie_link a:active {
+  text-decoration: underline;
+}
+.movie_link a {
+  margin-left: 20px;
+}
+.movie_link a {
+  border: 1px solid gainsboro;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  padding-top: 1px;
+  border-radius: 5px;
+}
+.movie_link a:hover {
+  background-color: aliceblue;
+  color: #252525;
+}
+
+.movie_date {
+  margin-top: 10px;
+}
+.movie_image {
+  margin-top: 20px;
+}
+a {
+  color: rgb(68, 71, 235);
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* home header css */
+.home_header_main_div {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.home_header_inner_div {
+  display: flex;
+  justify-content: space-between;
+}
+.home_header_date {
+  font-weight: 800;
+  font-size: 14px;
+  font-family: monospace;
+}
+.home_header_links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.l1 {
+  margin-top: 10px;
+}
+.home_header_links a {
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid gainsboro;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 10px;
+  padding-bottom: 5px;
+  padding-top: 3px;
+  flex-wrap: wrap;
+  text-decoration: none;
+  font-size: 14px;
+  color: #252525;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 5px;
+}
+.home_header_links a:hover {
+  background-color: rgb(252, 242, 207);
+}
+.home_header_main_div h2 {
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  /* font-family: "Courier New", Courier, monospace; */
+}
+.footer_1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.footer_1_card_main {
+  width: 20rem;
+  margin: 10px;
+  border-radius: 13px;
+}
+.footer_1_card_main img {
+  border-radius: 12px;
+}
+.blog_footer_title {
+  font-size: 18px;
+  margin-top: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  margin-left: 5px;
+}
+.blog_footer_description {
+  font-size: 14px;
+  color: gray;
+  margin-left: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.blog_footer_card_footer {
+  display: flex;
+  font-size: 12px;
+  font-weight: 600;
+  color: #252525;
+  /* justify-content: space-between; */
+}
+.blog_footer_author {
+  margin: 5px;
+}
+.blog_footer_time {
+  margin: 5px;
+  letter-spacing: 1px;
+  margin-left: 10px;
+}
+.blog_footer_id_link {
+  font-size: 14px;
+  margin-left: 5px;
+  margin-top: -8px;
+  padding-bottom: 5px;
+}
+.footer_button {
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid gainsboro;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 10px;
+  padding-bottom: 5px;
+  padding-top: 3px;
+  flex-wrap: wrap;
+  text-decoration: none;
+  font-size: 14px;
+  color: #252525;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 5px;
+}
+.footer_main_div {
+  display: flex;
+  justify-content: space-around;
+}
+/* media query */
+@media only screen and (max-width: 600px) {
+  .home_page_main_div {
+    display: grid;
+    width: 100%;
+
+    flex-direction: row;
+    /* justify-content: s; */
+    width: 100%;
+    padding: 30px;
+  }
+  .movies_main_div {
+    padding: 10px;
+    width: 100%;
+    border-top: 1px solid gainsboro;
+    margin: 5px;
+  }
+  .latest_news_main_div {
+    width: 100%;
+    padding: 10px;
+    float: left;
+    margin: 5px;
+    border-left: 1px solid gainsboro;
+  }
+  .news_title {
+    font-size: 20px;
+    /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-ser; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    margin-top: -6px;
+    font-weight: 700;
+  }
+  .News_date {
+    color: gray;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    margin-top: 2px;
+  }
+  .movie_link {
+    float: right;
+    /* width: 100%; */
+    padding-bottom: 5px;
+  }
+  .movie_link a:active {
+    text-decoration: underline;
+  }
+  .movie_link a {
+    margin-left: 10px;
+
+    border: 1px solid gainsboro;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    padding-top: 1px;
+    border-radius: 5px;
+  }
+  .movie_link a:hover {
+    background-color: aliceblue;
+    color: #252525;
+  }
+  .movie_heading {
+    display: grid;
+    padding-bottom: 15px;
+    justify-content: space-between;
+  }
+  .movie_heading {
+    border-bottom: none;
+  }
+  .movie_link {
+    margin-top: 10px;
+  }
+  .home_header_inner_div {
+    display: grid;
+  }
+  .home_header_links a {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid gainsboro;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    flex-wrap: wrap;
+    text-decoration: none;
+    font-size: 14px;
+    color: #252525;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+  }
+  .home_header_date {
+    font-weight: 800;
+    font-size: 14px;
+    margin-left: 17px;
+    font-family: monospace;
+  }
+  .home_header_main_div h2 {
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    /* font-family: "Courier New", Courier, monospace; */
+  }
+}
