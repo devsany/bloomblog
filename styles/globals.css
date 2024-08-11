@@ -22,7 +22,10 @@
   padding: 10px;
   float: left;
   margin: 5px;
+  height: 58.5rem;
   border-left: 1px solid gainsboro;
+  overflow-y: scroll;
+  border-bottom: 1px solid gainsboro;
 }
 .news_section_header {
   display: flex;
@@ -53,7 +56,7 @@
   cursor: pointer;
   font-size: 15px;
   /* margin-top: -200px; */
-  border: 1px solid gray;
+  border: 1px solid rgb(243, 243, 243);
   padding-left: 5px;
   padding-right: 5px;
   background-color: rgb(255, 253, 253);
@@ -63,7 +66,8 @@ hr {
   margin-top: 20px;
 }
 .news_link:hover {
-  background-color: rgb(133, 133, 245);
+  background-color: rgb(219, 219, 248);
+  /* color: white; */
 }
 .news_section {
   margin-bottom: 20px;
