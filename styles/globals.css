@@ -275,7 +275,9 @@ a {
 }
 
 /* path css */
-
+.desctipion {
+  text-align: justify;
+}
 .path a {
   text-decoration: none;
   color: gray;
@@ -314,6 +316,7 @@ a {
   color: rgb(54, 53, 53);
   font-size: 18px;
   letter-spacing: 0.5px;
+  text-align: justify;
 }
 .individual_blog_about_author {
   padding-left: 2rem;
