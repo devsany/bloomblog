@@ -301,7 +301,37 @@ a {
 .card {
   margin-top: 2rem;
 }
-
+.individual_blog_about_blog h2 {
+  margin-top: -3rem;
+  font-size: 32px;
+  color: aliceblue;
+  text-shadow: 0px 0px 10px #252525;
+}
+.world_bolg_image_overlap_words {
+  display: flex;
+}
+.News_dates {
+  color: rgb(54, 53, 53);
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+.individual_blog_about_author {
+  padding-left: 2rem;
+}
+.individual_blog_about_author h2 {
+  font-weight: 700;
+  font-size: 30px;
+}
+.author {
+  color: gray;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  margin-top: 2px;
+}
+.author_description {
+  font-size: 22px;
+  color: #252525;
+}
 /* media query */
 @media only screen and (max-width: 600px) {
   .home_page_main_div {
@@ -427,15 +457,44 @@ a {
     /* justify-content: space-between; */
   }
   .individual_blog_about_blog {
-    /* margin-top: 2rem; */
     border-bottom: none;
     width: 100%;
-    /* border: 1px solid black; */
   }
   .individual_blog_about_author {
-    /* margin-top: 2rem; */
-    border-top: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
     width: 100%;
+  }
+  .individual_blog_about_blog h2 {
+    margin-top: -2rem;
+    font-size: 20px;
+    color: aliceblue;
+    text-shadow: 0px 0px 10px #252525;
+  }
+  .News_dates {
+    color: rgb(54, 53, 53);
+    font-size: 14px;
+    letter-spacing: 0.5px;
+  }
+  .individual_blog_about_author {
+    padding-left: 2rem;
+  }
+  .individual_blog_about_author h2 {
+    font-weight: 700;
+    font-size: 22px;
+  }
+  .author {
+    color: gray;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    margin-top: 2px;
+  }
+  .author_description {
+    font-size: 18px;
+    color: #252525;
   }
 }
 ::-webkit-scrollbar {
@@ -445,4 +504,3 @@ a {
   background: gainsboro;
   border-radius: 10px;
 }
-

@@ -30,16 +30,26 @@ const World = () => {
                     <img src={item.blog_image} alt={item.blog_title} />
                     <h2>{item.blog_title}</h2>
                     <div className="world_bolg_image_overlap_words">
-                      <div>{item.date_of_publision}</div>
-                      <div>{item.author}</div>
-                      <div>{item.time}</div>
+                      <div className="News_date  mr-2">
+                        {item.date_of_publision}
+                      </div>
+                      <div className="News_date mr-2">({item.author})</div>
+                      <div className="News_date">{item.time}</div>
                     </div>
+                    <div className="News_dates">{item.blog_description}</div>
                   </div>
                   <div className="individual_blog_about_author">
                     <h2>About Author</h2>
-                    <div>Name of Author:-{item.author}</div>
-                    <div>{item.about_author}</div>
+                    <div className="author">Name of Author:-{item.author}</div>
+                    <div className="author_description">
+                      -{"  "}
+                      {item.about_author}
+                    </div>
                     <h2>Follow Me</h2>
+                    <img
+                      src="public/instagram-svgrepo-com.png"
+                      alt="insta_icon"
+                    />
                     <Link href={item.social_media_link.instagram}>
                       instagram
                     </Link>
