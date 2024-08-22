@@ -95,7 +95,7 @@ export default function Home() {
                     <>
                       <div key={i}>
                         <div className="movie_image">
-                          <img src={item.image} alt={item.movie_title} />
+                          <Image src={item.image} alt={item.movie_title} />
                         </div>
                         <div className="News_date movie_date">{item.date}</div>
                         <div className="news_title">
